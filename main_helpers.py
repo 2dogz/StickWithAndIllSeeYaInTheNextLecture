@@ -11,6 +11,6 @@ def validatePath(message):
             if fileBool:
                 return inputPath
                 break
-        except Exception:
-            print("Please enter a valid path")
+        except Exception as e:
+            print(e)
             continue

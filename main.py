@@ -1,5 +1,5 @@
 from main_helpers import fLoop, validatePath
-from writeText import image_writer
+from write_text import image_writer
 import os.path
 
 def main():
