@@ -13,4 +13,3 @@ def validatePath(message):
                 break
         except Exception as e:
             print(e)
-            pass
