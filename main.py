@@ -19,7 +19,7 @@ def main():
         if file.endswith('.png'):
             count += 1
             print("{} {} ".format(file, count))
-            image_writer("{}/{}".format(inputPath,file), pawprint,"{}/{}{}Screenshot{}automated.png".format(outputPath, pawprint, projectName, count))
+            image_writer("{}/{}".format(inputPath,file), pawprint,"{}/{}{}Screenshot{}.png".format(outputPath, pawprint, projectName, count))
 
 if __name__ == '__main__':
     main()
